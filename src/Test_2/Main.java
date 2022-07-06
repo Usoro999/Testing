@@ -7,8 +7,8 @@ public class Main {
       return a.charAt(a.length() - 1);
    }
    public static void main(String[] args){
-       Scanner Stroka = new Scanner(System.in);
-       String text = Stroka.nextLine();
+       Scanner geg = new Scanner(System.in);
+       String text = geg.nextLine();
        System.out.println(getLastChar(text));
 
    }
